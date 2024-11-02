@@ -1,0 +1,165 @@
+.app {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.main-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px 24px 32px;
+}
+
+.posts-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* // src/components/ImagePost.css */
+.ImagePost {
+  display: flex;
+  gap: 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.vl {
+  width: 1px;
+  background-color: #ffffff3b;
+  height: 100%;
+}
+
+.post {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.user-avatar {
+  width: 52px;
+  height: 52px;
+  min-height: 52px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+}
+
+.username {
+  color: #d1d5db;
+  margin-bottom: 16px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+  transition: color 0.3s;
+}
+
+.post-actions button:hover {
+  color: #9ca3af;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* // src/components/Navbar.css */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px 24px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-text {
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 0.3s;
+}
+
+.nav-links button:hover {
+  color: #c084fc;
+}
+
+.signup-btn {
+  background-color: #828282 !important;
+  padding: 4px 32px !important;
+  border-radius: 12px;
+  color: #0e0e0e !important;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-btn:hover {
+  background-color: rgb(197, 198, 201) !important;
+}
