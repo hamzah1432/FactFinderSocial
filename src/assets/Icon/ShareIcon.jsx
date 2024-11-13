@@ -3,7 +3,6 @@ const ShareIcon = () => {
     <svg
       className="icon"
       aria-label="Share"
-      class="x1lliihq x1n2onr6 xyb1xck"
       fill="currentColor"
       height="24"
       role="img"

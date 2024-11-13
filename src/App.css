@@ -59,7 +59,7 @@
 }
 
 .image-container {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
@@ -95,6 +95,16 @@
 .icon {
   width: 24px;
   height: 24px;
+}
+
+/* PostDetails */
+.PostDetails{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #7406066b;
 }
 
 /* // src/components/Navbar.css */

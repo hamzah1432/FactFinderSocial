@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import HeartIcon from "../assets/Icon/HeartIcon";
 import CommentIcon from "../assets/Icon/CommentIcon";
 import ShareIcon from "../assets/Icon/ShareIcon";
+import PostDetails from "./PostDetails";
 
 const ImagePost = ({ imageUrl }) => {
+  const [show, setShow] = useState(true);
   return (
     <div className="ImagePost">
       <div className="user">
@@ -31,44 +33,10 @@ const ImagePost = ({ imageUrl }) => {
           </button>
         </div>
       </div>
+      {/*  */}
+      {show && <PostDetails />}
     </div>
   );
 };
 
 export default ImagePost;
-
-/*
-import React from "react";
-import HeartIcon from "../assets/Icon/HeartIcon";
-import CommentIcon from "../assets/Icon/CommentIcon";
-import ShareIcon from "../assets/Icon/ShareIcon";
-
-const ImagePost = ({ imageUrl }) => {
-  return (
-    <div className="post">
-      <div className="post-header">
-        <div className="user-avatar"></div>
-        <div className="username">user_123</div>
-      </div>
-
-      <div className="image-container">
-        <img src={imageUrl} alt="Post" />
-      </div>
-
-      <div className="post-actions">
-        <button>
-          <HeartIcon />
-        </button>
-        <button>
-          <CommentIcon />
-        </button>
-        <button>
-          <ShareIcon />
-        </button>
-      </div>
-    </div>
-  );
-};
-
-export default ImagePost;
-*/

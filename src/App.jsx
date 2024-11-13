@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import ImagePost from './components/ImagePost';
 import './App.css';
+import PostDetails from './components/PostDetails';
 
 const App = () => {
   const posts = [
@@ -19,6 +20,7 @@ const App = () => {
           ))}
         </div>
       </main>
+     
     </div>
   );
 };

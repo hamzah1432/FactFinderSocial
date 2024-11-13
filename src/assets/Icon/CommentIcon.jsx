@@ -3,7 +3,6 @@ const CommentIcon = () => {
     <svg
       className="icon"
       aria-label="Comment"
-      class="x1lliihq x1n2onr6 x5n08af"
       fill="currentColor"
       height="24"
       role="img"
