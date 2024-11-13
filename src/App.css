@@ -124,6 +124,7 @@
   justify-content: space-between;
   height: 584px ;
   margin-top: 40px;
+  overflow-y: hidden;
 }
 
 .PostContainer .post {
@@ -131,6 +132,8 @@
   align-items: center;
   justify-content: center;
   background-color: #ff000000;
+  flex-grow: 1;
+
 }
 
 .PostContainer .post .image {

@@ -4,7 +4,7 @@ import CommentIcon from "../assets/Icon/CommentIcon";
 import ShareIcon from "../assets/Icon/ShareIcon";
 import PostDetails from "./PostDetails";
 
-const ImagePost = ({ imageUrl }) => {
+const ImagePost = ({ imageUrl, name }) => {
   const [show, setShow] = useState(true);
   return (
     <div className="ImagePost">
@@ -14,7 +14,7 @@ const ImagePost = ({ imageUrl }) => {
       </div>
       <div className="post">
         <div className="post-header">
-          <div className="username">user_123</div>
+          <div className="username">{name}</div>
         </div>
 
         <div className="image-container">
@@ -34,7 +34,7 @@ const ImagePost = ({ imageUrl }) => {
         </div>
       </div>
       {/*  */}
-      {show && <PostDetails imageUrl={imageUrl} />}
+      {show && <PostDetails imageUrl={imageUrl} name={name} />}
     </div>
   );
 };
