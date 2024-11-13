@@ -34,7 +34,7 @@ const ImagePost = ({ imageUrl }) => {
         </div>
       </div>
       {/*  */}
-      {show && <PostDetails />}
+      {show && <PostDetails imageUrl={imageUrl} />}
     </div>
   );
 };
