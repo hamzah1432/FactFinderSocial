@@ -2,22 +2,27 @@ import React from 'react';
 import { useState } from 'react';
 import HeartIcon from '../assets/Icon/HeartIcon';
 
-const PostDetails = ({ imageUrl, name }) => {
+const PostDetails = ({ imageUrl, name, posts }) => {
+
+  const handleButtonClick = (e) => {
+    // Prevent the click event from bubbling up to the card
+    e.stopPropagation();
+  };
 
   return (
-    <div className="PostDetails">
+    <div  >
       <div className="PostContainer">
-        <div className="post">
+        <div className="post" onClick={(e) => { handleButtonClick(e) }}>
           <div className="image">
             <img src={imageUrl} alt="" width={536} height={300} style={{ objectFit: "cover" }} />
           </div>
         </div>
-        <div style={{ padding: "0px 30px" }}>
-          <div style={{display:"flex",alignItems:"center",gap:20,marginTop:10}}>
-            <div style={{width:36,height:36,minHeight:36}} className="user-avatar"></div>
-           <div>{name}</div>
+        <div style={{ padding: "0px 30px" }} onClick={(e) => { handleButtonClick(e) }} >
+          <div style={{ display: "flex", alignItems: "center", gap: 20, marginTop: 10 }}>
+            <div style={{ width: 36, height: 36, minHeight: 36 }} className="user-avatar"></div>
+            <div>{name}</div>
           </div>
-          <SocialMediaPost />
+          <SocialMediaPost posts={posts} />
         </div>
       </div>
     </div>
@@ -29,39 +34,11 @@ export default PostDetails;
 
 
 
-const SocialMediaPost = ({ imageUrl }) => {
-  const posts = [
-    {
-      author: "donalleniii",
-      isVerified: true,
-      timeAgo: "8h",
-      content: "OMG 😱 celebrating 🥳 over 4000 followers today! Thank you! Enjoy this augmented reality real time puppet I made. You can try it now went below in the thread.",
-      likes: "32K"
-    },
-    {
-      author: "nasdaily",
-      isVerified: true,
-      timeAgo: "1d",
-      content: 'This place is called "Sealand" it is 4 KM off the coast of the UK. It was a military structure that was later abandoned.\n\nSo someone named Roy Bates decided to take it over and turn it into his own country in International Waters.',
-      likes: "3K"
-    },
-    {
-      author: "nasdaily",
-      isVerified: true,
-      timeAgo: "1d",
-      content: 'This place is called "Sealand" it is 4 KM off the coast of the UK. It was a military structure that was later abandoned.\n\nSo someone named Roy Bates decided to take it over and turn it into his own country in International Waters.',
-      likes: "3K"
-    },
-    {
-      author: "nasdaily",
-      isVerified: true,
-      timeAgo: "1d",
-      content: 'This place is called "Sealand" it is 4 KM off the coast of the UK. It was a military structure that was later abandoned.\n\nSo someone named Roy Bates decided to take it over and turn it into his own country in International Waters.',
-      likes: "3K"
-    },
-  ];
+const SocialMediaPost = ({ posts }) => {
+
 
   const [isLiked, setIsLiked] = useState(false);
+  const [comment, setComment] = useState("");
 
   return (
     <div style={styles.container}>
@@ -88,9 +65,9 @@ const SocialMediaPost = ({ imageUrl }) => {
 
                 <p style={styles.postContent}>{post.content}</p>
 
-                <div style={styles.interactionBar}>
+                <div className='post-actions' style={styles.interactionBar}>
                   <button
-                    style={styles.likeButton}
+
                     onClick={() => setIsLiked(!isLiked)}
                   >
                     <HeartIcon />
@@ -109,8 +86,15 @@ const SocialMediaPost = ({ imageUrl }) => {
             type="text"
             placeholder="Add a comment..."
             style={styles.commentInput}
+            value={comment}
+            onChange={(e) => setComment(e.target.value)}
           />
-          <button style={styles.postButton}>Post</button>
+          <button
+            style={styles.postButton}
+            onClick={() => console.log(comment)}
+          >
+            Post
+          </button>
         </div>
       </div>
     </div>

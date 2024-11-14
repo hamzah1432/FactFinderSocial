@@ -4,8 +4,9 @@ import CommentIcon from "../assets/Icon/CommentIcon";
 import ShareIcon from "../assets/Icon/ShareIcon";
 import PostDetails from "./PostDetails";
 
-const ImagePost = ({ imageUrl, name }) => {
-  const [show, setShow] = useState(true);
+const ImagePost = ({ imageUrl, name, posts }) => {
+  const [show, setShow] = useState(false);
+  
   return (
     <div className="ImagePost">
       <div className="user">
@@ -17,7 +18,7 @@ const ImagePost = ({ imageUrl, name }) => {
           <div className="username">{name}</div>
         </div>
 
-        <div className="image-container">
+        <div className="image-container" >
           <img src={imageUrl} alt="Post" />
         </div>
 
@@ -25,7 +26,7 @@ const ImagePost = ({ imageUrl, name }) => {
           <button>
             <HeartIcon />
           </button>
-          <button>
+          <button onClick={() => { setShow(true) }}>
             <CommentIcon />
           </button>
           <button>
@@ -33,8 +34,12 @@ const ImagePost = ({ imageUrl, name }) => {
           </button>
         </div>
       </div>
-      {/*  */}
-      {show && <PostDetails imageUrl={imageUrl} name={name} />}
+
+      {show ? <div className="PostDetails" onClick={() => { setShow(false) }}>
+        <PostDetails imageUrl={imageUrl} name={name} posts={posts} />
+      </div> :
+        <></>
+      }
     </div>
   );
 };
