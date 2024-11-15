@@ -14,14 +14,16 @@ const App = () => {
           isVerified: true,
           timeAgo: "8h",
           content: "OMG 😱 celebrating 🥳 over 4000 followers today! Thank you! Enjoy this augmented reality real time puppet I made. You can try it now went below in the thread.",
-          likes: "32K"
+          likes: "32K",
+          likeIt:true
         },
         {
           author: "nasdaily",
           isVerified: true,
           timeAgo: "1d",
           content: 'This place is called "Sealand" it is 4 KM off the coast of the UK. It was a military structure that was later abandoned.\n\nSo someone named Roy Bates decided to take it over and turn it into his own country in International Waters.',
-          likes: "3K"
+          likes: "3K",
+          likeIt:false
         },
         {
           author: "nasdaily",
@@ -80,9 +82,9 @@ const App = () => {
       <main className="main-content">
         <div className="posts-container">
           {posts.map(post => (
-            <>
+            <div key={post.id}>
               <ImagePost key={post.id} imageUrl={post.imageUrl} name={post.name} posts={post.postcomment} />
-            </>
+            </div>
           ))}
         </div>
       </main>

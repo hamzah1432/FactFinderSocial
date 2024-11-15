@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import HeartIcon from "../assets/Icon/HeartIcon";
 import CommentIcon from "../assets/Icon/CommentIcon";
 import ShareIcon from "../assets/Icon/ShareIcon";
@@ -6,7 +6,20 @@ import PostDetails from "./PostDetails";
 
 const ImagePost = ({ imageUrl, name, posts }) => {
   const [show, setShow] = useState(false);
-  
+
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling
+    } else {
+      document.body.style.overflow = ""; // Re-enable scrolling
+    }
+
+    // Cleanup function to ensure scrolling is re-enabled when component unmounts
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [show]);
+
   return (
     <div className="ImagePost">
       <div className="user">
@@ -23,9 +36,8 @@ const ImagePost = ({ imageUrl, name, posts }) => {
         </div>
 
         <div className="post-actions">
-          <button>
-            <HeartIcon />
-          </button>
+          <HeartIcon />
+
           <button onClick={() => { setShow(true) }}>
             <CommentIcon />
           </button>

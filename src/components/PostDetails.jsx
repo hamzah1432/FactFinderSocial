@@ -46,7 +46,7 @@ const SocialMediaPost = ({ posts }) => {
       <div style={styles.postsSection}>
         <div style={{ overflowY: "scroll", height: 427, scrollbarWidth: "none" }}>
           {posts.map((post, index) => (
-            <div key={index} style={styles.post}>
+            <div key={index+"ee"} style={styles.post}>
               {/* Avatar */}
               <div style={styles.avatar} />
 
@@ -66,12 +66,7 @@ const SocialMediaPost = ({ posts }) => {
                 <p style={styles.postContent}>{post.content}</p>
 
                 <div className='post-actions' style={styles.interactionBar}>
-                  <button
-
-                    onClick={() => setIsLiked(!isLiked)}
-                  >
-                    <HeartIcon />
-                  </button>
+                  <HeartIcon liked={post.likeIt} />
                   <span style={styles.likesCount}>{post.likes} likes</span>
                 </div>
               </div>
