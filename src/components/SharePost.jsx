@@ -26,10 +26,15 @@ const ShareResultsPage = () => {
     // Implement actual sharing logic here
   };
 
+  const handleButtonClick = (e) => {
+    // Prevent the click event from bubbling up to the card
+    e.stopPropagation();
+  };
+
   return (
-    <div className="ShareResultsPage">
+
       <div className="share-container">
-        <div className="share-panel">
+        <div className="share-panel" onClick={(e)=>{handleButtonClick(e)}}>
           <h2 className="share-title">Share your results</h2>
 
           {/* Top actions */}
@@ -38,17 +43,21 @@ const ShareResultsPage = () => {
               className="action-button copy-link-button"
               onClick={handleCopyLink}
             >
-              <div className="icon-circle link-icon">{/* <Link /> */}</div>
+              <div className="icon-circle link-icon">
+                <img src="./link.svg" alt="" />
+              </div>
               <span className="action-text">Copy Link</span>
             </button>
 
             <button className="action-button share-via-button">
-              <div className="icon-circle share-icon">{/* <Share /> */}</div>
+              <div className="icon-circle share-icon">
+                <img src="./upload.svg" alt="" />
+              </div>
               <span className="action-text">Share via...</span>
             </button>
           </div>
 
-          {/* Share options grid */}
+          {/* Share options */}
           <div className="share-options">
             {shareOptions.map((option) => (
               <button
@@ -72,7 +81,6 @@ const ShareResultsPage = () => {
           )}
         </div>
       </div>
-    </div>
   );
 };
 

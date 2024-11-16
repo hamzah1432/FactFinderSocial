@@ -7,7 +7,7 @@ import ShareResultsPage from "./SharePost";
 
 const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
   const [show, setShow] = useState(false);
-  const [share, setShare] = useState(true);
+  const [share, setShare] = useState(false);
 
   useEffect(() => {
     if (show) {
@@ -46,7 +46,11 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
           >
             <CommentIcon />
           </button>
-          <button>
+          <button
+            onClick={() => {
+              setShare(true);
+            }}
+          >
             <ShareIcon />
           </button>
         </div>
@@ -64,9 +68,18 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
       ) : (
         <></>
       )}
-      {
-       share? <ShareResultsPage/>:<></>
-      }
+      {share ? (
+        <div
+        className="ShareResultsPage"
+          onClick={() => {
+            setShare(false);
+          }}
+        >
+          <ShareResultsPage />
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };
