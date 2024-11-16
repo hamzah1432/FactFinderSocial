@@ -3,9 +3,11 @@ import HeartIcon from "../assets/Icon/HeartIcon";
 import CommentIcon from "../assets/Icon/CommentIcon";
 import ShareIcon from "../assets/Icon/ShareIcon";
 import PostDetails from "./PostDetails";
+import ShareResultsPage from "./SharePost";
 
-const ImagePost = ({ imageUrl, name, posts }) => {
+const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
   const [show, setShow] = useState(false);
+  const [share, setShare] = useState(true);
 
   useEffect(() => {
     if (show) {
@@ -14,7 +16,6 @@ const ImagePost = ({ imageUrl, name, posts }) => {
       document.body.style.overflow = ""; // Re-enable scrolling
     }
 
-    // Cleanup function to ensure scrolling is re-enabled when component unmounts
     return () => {
       document.body.style.overflow = "";
     };
@@ -31,14 +32,18 @@ const ImagePost = ({ imageUrl, name, posts }) => {
           <div className="username">{name}</div>
         </div>
 
-        <div className="image-container" >
+        <div className="image-container">
           <img src={imageUrl} alt="Post" />
         </div>
 
         <div className="post-actions">
-          <HeartIcon />
+          <HeartIcon liked={likeIt} />
 
-          <button onClick={() => { setShow(true) }}>
+          <button
+            onClick={() => {
+              setShow(true);
+            }}
+          >
             <CommentIcon />
           </button>
           <button>
@@ -47,10 +52,20 @@ const ImagePost = ({ imageUrl, name, posts }) => {
         </div>
       </div>
 
-      {show ? <div className="PostDetails" onClick={() => { setShow(false) }}>
-        <PostDetails imageUrl={imageUrl} name={name} posts={posts} />
-      </div> :
+      {show ? (
+        <div
+          className="PostDetails"
+          onClick={() => {
+            setShow(false);
+          }}
+        >
+          <PostDetails imageUrl={imageUrl} name={name} posts={posts} />
+        </div>
+      ) : (
         <></>
+      )}
+      {
+       share? <ShareResultsPage/>:<></>
       }
     </div>
   );

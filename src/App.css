@@ -212,3 +212,146 @@
   background-color: rgb(197, 198, 201) !important;
 }
 
+.ShareResultsPage{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.share-container {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.share-panel {
+  width: 100%;
+  background-color: black;
+  border-radius: 66px 66px 24px 24px;
+border: 1px solid #A9A9A9;
+border-bottom: 0px;
+  border-radius: 20px 20px 0 0;
+  padding: 1.5rem;
+  color: white;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.top-actions {
+  display: flex;
+  gap: 2rem;
+  padding-left: 65px;
+  margin-bottom: 2rem;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.icon-circle {
+  width: 56px;
+  height: 56px;
+  min-height: 56px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.action-button:hover .icon-circle {
+  background-color: #444;
+}
+
+.share-options {
+  display: flex;
+  padding-left: 65px;
+  gap: 1.5rem;
+}
+
+.share-option-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.share-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: opacity 0.2s;
+}
+
+.share-option-button:hover .share-icon {
+  opacity: 0.8;
+}
+
+.share-option-button span {
+  font-size: 0.75rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.copy-notification {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translate(-50%, 10px);
+  }
+  to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 480px) {
+  .share-options {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .share-icon {
+      width: 48px;
+      height: 48px;
+  }
+}
