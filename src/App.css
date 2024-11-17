@@ -125,6 +125,7 @@
   height: 584px ;
   margin-top: 40px;
   overflow-y: hidden;
+  min-width: 1020px;
 }
 
 .PostContainer .post {
