@@ -16,7 +16,14 @@
   gap: 40px;
 }
 
-/* // src/components/ImagePost.css */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+
 .ImagePost {
   display: flex;
   gap: 20px;
@@ -61,7 +68,6 @@
 }
 
 .image-container {
-  /* position: relative; */
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
@@ -99,7 +105,13 @@
   height: 24px;
 }
 
-/* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
 .PostDetails {
   position: fixed;
   left: 0;
@@ -146,7 +158,175 @@
   margin: 20px;
 }
 
-/* // src/components/Navbar.css */
+
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+
+
+.smp-container {
+  max-width: 600px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  position: relative;
+  height: 100%;
+}
+
+.smp-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.smp-main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.smp-posts-section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.smp-post {
+  display: flex;
+  gap: 12px;
+}
+
+.smp-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #7c3aed;
+  flex-shrink: 0;
+}
+
+.smp-content-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.smp-header-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.smp-author-name {
+  font-weight: 500;
+}
+
+.smp-verified-badge {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.smp-time-ago {
+  color: #71767b;
+}
+
+.smp-more-button {
+  margin-left: auto;
+  color: #71767b;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.smp-post-content {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 18px;
+  white-space: pre-wrap;
+}
+
+.smp-interaction-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.smp-like-button {
+  color: white;
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smp-likes-count {
+  font-size: 14px;
+  color: #71767b;
+}
+
+.smp-comment-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  padding: 16px;
+}
+
+.smp-comment-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #71767b;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.smp-comment-input::placeholder {
+  color: #71767b;
+}
+
+.smp-comment-input:focus {
+  outline: none;
+}
+
+.smp-post-button {
+  background: none;
+  border: none;
+  color: #1d9bf0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px;
+}
+
+
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+
 .navbar {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 16px 24px;
@@ -212,6 +392,14 @@
 .signup-btn:hover {
   background-color: rgb(197, 198, 201) !important;
 }
+
+
+
+/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
+/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
+/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
+/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
+/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
 
 .ShareResultsPage{
   position: fixed;

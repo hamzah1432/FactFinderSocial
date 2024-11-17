@@ -1,5 +1,5 @@
 import React from "react";
-
+// This is the header, which contains navigation links such as Home, News, About Us, and Profile.
 const Navbar = () => {
   return (
     <nav className="navbar">

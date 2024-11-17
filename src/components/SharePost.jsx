@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// this compontent is for post share
+
 const ShareResultsPage = () => {
   const [copyNotification, setCopyNotification] = useState(false);
 

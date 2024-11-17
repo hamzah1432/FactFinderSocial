@@ -5,6 +5,9 @@ import ShareIcon from "../assets/Icon/ShareIcon";
 import PostDetails from "./PostDetails";
 import ShareResultsPage from "./SharePost";
 
+// this component contain all post component like authur and profile picture and the post picture
+// also ther is comment (PostDetails) and share (ShareResultsPage ) componet
+
 const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
   const [show, setShow] = useState(false);
   const [share, setShare] = useState(false);
@@ -24,7 +27,10 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
   return (
     <div className="ImagePost">
       <div className="user">
-        <div className="user-avatar"></div>
+        <a href="https://picsum.photos/1900/1900?grayscale" target="_blank">
+          <div className="user-avatar" />
+        </a>
+
         <div className="vl"></div>
       </div>
       <div className="post">
@@ -38,13 +44,14 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
 
         <div className="post-actions">
           <HeartIcon liked={likeIt} />
-
+          {/* this is icon for like */}
           <button
             onClick={() => {
               setShow(true);
             }}
           >
             <CommentIcon />
+            {/* this is icon for comment  */}
           </button>
           <button
             onClick={() => {
@@ -52,6 +59,7 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
             }}
           >
             <ShareIcon />
+            {/* this is icon for share  */}
           </button>
         </div>
       </div>
@@ -70,7 +78,7 @@ const ImagePost = ({ imageUrl, name, likeIt, posts }) => {
       )}
       {share ? (
         <div
-        className="ShareResultsPage"
+          className="ShareResultsPage"
           onClick={() => {
             setShare(false);
           }}
