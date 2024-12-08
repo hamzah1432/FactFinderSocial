@@ -5,8 +5,8 @@
 
 .main-content {
   max-width: 1300px;
-  margin: 0 auto;
-  padding: 80px 24px 32px;
+  margin:180px 0 auto;
+  padding: 0px 24px 32px;
 }
 
 .posts-container {
@@ -16,13 +16,83 @@
   gap: 40px;
 }
 
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
-/*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost *//*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
+/*ImagePost */
 
 .ImagePost {
   display: flex;
@@ -105,13 +175,62 @@
   height: 24px;
 }
 
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
-/* PostDetails */ /* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails *//* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
+/* PostDetails */
 .PostDetails {
   position: fixed;
   left: 0;
@@ -134,7 +253,7 @@
   display: flex;
   margin: 0 156px;
   justify-content: space-between;
-  height: 584px ;
+  height: 584px;
   margin-top: 40px;
   overflow-y: hidden;
   min-width: 1020px;
@@ -159,14 +278,70 @@
 }
 
 
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
-/*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment *//*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
+/*  PostComment */
 
 
 .smp-container {
@@ -315,98 +490,296 @@
 }
 
 
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
-/*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css *//*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
+/*Navbar.css */
 
-.navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 16px 24px;
-  position: fixed;
+.profile-navbar {
+  background: linear-gradient(90deg, #5865F2 0%, #FF8F6B 100%);
   width: 100%;
+  padding-top: 64px;
+  padding-bottom: 120px;
   top: 0;
   z-index: 50;
+  position: relative;
 }
 
-.navbar-container {
-  max-width: 1300px;
+.profile-navbar .navbar-container {
   margin: 0 auto;
-  padding: 0 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo-container {
+.profile-navbar .logo-container {
   display: flex;
   align-items: center;
+  padding-left: 120px;
   gap: 8px;
 }
 
-.logo {
+.profile-navbar .logo {
   width: 32px;
   height: 32px;
 }
 
-.logo-text {
+.profile-navbar .logo-text {
   color: white;
   font-weight: 500;
 }
 
-.nav-links {
+.profile-navbar .nav-links {
   display: flex;
-  gap: 24px;
+  gap: 88px;
+  padding-right: 120px;
 }
 
-.nav-links button {
+.profile-navbar .nav-links button {
   background: none;
   border: none;
   color: white;
   cursor: pointer;
   padding: 8px;
   transition: color 0.3s;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 36px */
 }
 
-.nav-links button:hover {
+.profile-navbar .nav-links button:hover {
   color: #c084fc;
 }
 
-.signup-btn {
-  background-color: #828282 !important;
-  padding: 4px 32px !important;
-  border-radius: 12px;
-  color: #0e0e0e !important;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+/* profile */
+.profile {
+  position: absolute;
+  width: 100%;
+  color: #FFF;
+  display: flex;
+  gap: 15px;
+  bottom: -100px;
+
 }
 
-.signup-btn:hover {
-  background-color: rgb(197, 198, 201) !important;
+.profile .circle {
+  width: 170px;
+  height: 170px;
+  box-shadow: inset 5px 5px 0px 0px #101010;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #5865F2 0%, #FF8F6B 100%);
+}
+
+.profile .profile-name {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+  gap: 15px;
+}
+
+.profile .profile-name .email {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
 }
 
 
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
+/* ShareResultsPage */
 
-/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
-/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
-/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
-/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
-/* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage *//* ShareResultsPage */
-
-.ShareResultsPage{
+.ShareResultsPage {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 }
+
 .share-container {
   min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.50);
@@ -420,8 +793,8 @@
   width: 100%;
   background-color: black;
   border-radius: 66px 66px 24px 24px;
-border: 1px solid #A9A9A9;
-border-bottom: 0px;
+  border: 1px solid #A9A9A9;
+  border-bottom: 0px;
   border-radius: 20px 20px 0 0;
   padding: 1.5rem;
   color: white;
@@ -525,22 +898,23 @@ h2 {
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translate(-50%, 10px);
+    opacity: 0;
+    transform: translate(-50%, 10px);
   }
+
   to {
-      opacity: 1;
-      transform: translate(-50%, 0);
+    opacity: 1;
+    transform: translate(-50%, 0);
   }
 }
 
 @media (max-width: 480px) {
   .share-options {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .share-icon {
-      width: 48px;
-      height: 48px;
+    width: 48px;
+    height: 48px;
   }
 }
